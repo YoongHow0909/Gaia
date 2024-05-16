@@ -64,6 +64,7 @@
                 <?php if(isset($userType) && ($userType == "staff" || $userType == "manager")) { ?>
                     <button class="head_btn" onclick="location.href='AdminHome.php'"><span>Admin Home</span></button>
                 <?php } ?>                
+                <button class="head_btn" onclick="window.location.href='gaia-cart.php';">Cart<span>&raquo;</span></button>
                 <button class="head_btn" onclick="window.location.href='index.php';">Home<span>&raquo;</span></button>
                 <button class="head_btn" onclick="window.location.href='aboutUs.php';">About us<span>&raquo;</span></button>
                 <button class="head_btn" onclick="window.location.href='plant_menu.php';">Shop<span>&raquo;</span></button>
