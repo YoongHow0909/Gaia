@@ -259,7 +259,7 @@
                     }
                     if(payCardErr === false && cardTypeErr === false && cardNumErr === false && cardCVVErr === false && cardExpErr === false){
                         if(confirm("Confirm Payment: RM <?php printf("%.2f", $total_price); ?>?")) {
-                            $("#payment-form").attr("action", "../Gaia/gaia-insert_payment.php");
+                            $("#payment-form").attr("action", "../gaia-insert_payment.php");
                             $("#payment-form")[0].submit(); //To submit the form, without this, it will just set action attribute only
                         } else {
                             $("#payment-form").attr("action", "");
